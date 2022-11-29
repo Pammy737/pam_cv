@@ -1,0 +1,16 @@
+body {
+  background-color: #fff8ea;
+}
+
+h1 {
+  color: #665a48;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9f8772;
+  border-top-width: 5px;
+  width: 10%;
+  /* 所有都是一個box 想要調整Hr的寬度=一個box的寬度 */
+}

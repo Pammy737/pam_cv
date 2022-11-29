@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>a0981642805@gmail.com</p>
+    <p>0912786494</p>
+    <form action="mailto:a0981642805@gmail.com" method="post">
+        <!-- mailto 代表點下submit後 會自動寄發e-mail給上述網址 而post代表將下面的資訊包含在內 -->
+        <label>Enter your name:</label>
+        <input type="text"><br>
+        <label>Enter your e-mail</label>
+        <input type="email"><br>
+        <label>Your message:</label><br>
+        <textarea name="name" id="" cols="30" rows="10"></textarea>
+        <!-- name 一定要打 不然信中什麼都不會顯示 -->
+        <!-- A name attribute to set the name of the associated data point submitted to the server when the form is submitted. (mdn)-->
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
